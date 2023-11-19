@@ -38,6 +38,10 @@ namespace Tyuiu.PolyantsevEI.Sprint5.Task0.V9
 
             Console.WriteLine("Файл: " + res);
             Console.WriteLine("Создан!");
+
+            double y = Math.Pow(x, 3) / (x * x - 1);
+            Console.WriteLine("f(x) = " + y);
+
             Console.ReadKey();
         }
     }
