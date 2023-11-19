@@ -45,6 +45,27 @@ namespace Tyuiu.PolyantsevEI.Sprint5.Task1.V19
             Console.WriteLine("Файл: " + res);
             Console.WriteLine("Создан!");
 
+            double[] valueArray;
+            int len = (stopValue - startValue) + 1;
+            valueArray = new double[len];
+            int count = 0;
+            for (int x = startValue; x <= stopValue; x++)
+            {
+                valueArray[count] = Math.Round(Math.Sin(x) + 2 / (3 * x + 0.5) - 2 * Math.Cos(x) * 2 * x, 2);
+                count++;
+            }
+
+            Console.WriteLine("+----------+----------+");
+            Console.WriteLine("|    X     |    f(x)  |");
+            Console.WriteLine("+----------+----------+");
+
+            for (int i = 0; i < len; i++)
+            {
+                Console.WriteLine("|{0,5:d}     | {1,6:f2}   |", startValue, valueArray[i]);
+                startValue++;
+            }
+            Console.WriteLine("+----------+----------+");
+
             Console.ReadKey();
         }
     }
