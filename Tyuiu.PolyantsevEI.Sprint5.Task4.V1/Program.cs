@@ -17,7 +17,7 @@ namespace Tyuiu.PolyantsevEI.Sprint5.Task4.V1
             Console.Title = "Спринт #5 | Выполнил: Полянцев Е. И. | ИСТНб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Потоковый метод записи данных в бинарный файл                     *");
+            Console.WriteLine("* Тема: Обработка файлов                                                  *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнил: Полянцев Егор Ильич | ИСТНб-23-1                              *");
