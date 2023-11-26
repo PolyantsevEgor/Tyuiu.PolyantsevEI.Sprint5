@@ -10,7 +10,7 @@ namespace Tyuiu.PolyantsevEI.Sprint5.Task4.V1.Test
         [TestMethod]
         public void CheckExistsFile()
         {
-            string path = @"C:\Users\Admin\source\repos\Tyuiu.PolyantsevEI.Sprint5\Tyuiu.PolyantsevEI.Sprint5.Task4.V1\bin\Debug\InPutDataFileTask4V1.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask4V1.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;

@@ -29,7 +29,7 @@ namespace Tyuiu.PolyantsevEI.Sprint5.Task4.V1
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask4V1.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask4V1.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
